@@ -1,0 +1,10 @@
+body { font-family: Arial; text-align: center; background: #f7f7f7; }
+#grid { display: grid; grid-template-columns: repeat(15, 30px);
+        width: fit-content; margin: 20px auto; }
+.cell { width: 30px; height: 30px; border: 1px solid #ccc; }
+.cell.start { background: green; }
+.cell.goal { background: red; }
+.cell.block { background: black; }
+.cell.path { background: skyblue; }
+button { padding: 10px 20px; background: #0078D7; color: white;
+         border: none; border-radius: 6px; cursor: pointer; }
